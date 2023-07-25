@@ -15,6 +15,39 @@
     <link href="css/custom.css" rel="stylesheet">
   </head>
   <body>
+     <section class="container">
+    <h1 class="text-center my-4" id="title-banner">Shopping Cart</h1>
+    <div class="row">
+      <div>
+        <table class="table table-responsive col-12" id="cart-list">
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Price</th>
+              <th scope="col">Total</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="text" placeholder="Enter Item" class="cart-item" name="item1"></td>
+              <td><input type="number" placeholder="Quantity" class="cart-quantity" name="quantity1" value="0"></td>
+              <td><input type="text" placeholder="Price" class="cart-price" name="price1"></td>
+              <td class="item-subtotal">$0.00</td>
+              <td><button class="btn btn-sm btn-add-cart-item btn-neomorphic">Add Item</button></td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">Grand Total:</td>
+              <td id="grand-total">$0.00</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
 
   </body>
 </html>
