@@ -1,0 +1,57 @@
+body {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+
+  section.container {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #title-banner {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .table {
+    border: none;
+  }
+
+  .table th,
+  .table td {
+    border: none;
+    padding: 10px;
+  }
+
+  .table th {
+    background-color: #f0f0f0;
+  }
+
+  .cart-item,
+  .cart-quantity,
+  .cart-price {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  .btn-add-cart-item {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 20px;
+    cursor: pointer;
+  }
+
+  .btn-add-cart-item:hover {
+    background-color: #0056b3;
+  }
+
+  #grand-total {
+    font-weight: bold;
+  }
